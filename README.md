@@ -1,1 +1,11 @@
-# Excel-Assignment
+Total Price of Products;-              =Price*Quantity
+Total Products;-                       =COUNTA(select all product name column)
+Average Product Price;-                =AVERAGE(Select all price column)
+Minimum Price of Products;-            =MIN(select all product price column)
+Maximum Price of Products;-            =MAX(select all price column)
+Category Price Range;-                 =IF(Select 1st price row>=enter what is price range,"High Price","Standard Price")
+Total Price of Electronic Category;-   =SUMIF(select all category column,"which category name",select all price column)
+Count of Less Product Price;-          =COUNTIF(select all price column,"<100")
+Day of Product ID:-                    =LEFT(select 1st row of product ID, how many numbers what we need from total numbers from left side)
+Country Code of Products;-             =RIGHT(select 1st row of product ID, how many numbers what we need total letters from right side)
+Month of Product ID;-                  =MID(select 1st row of product ID, 4,3) 4 means;- after 28- then start from month first letter to what we need total letters)
